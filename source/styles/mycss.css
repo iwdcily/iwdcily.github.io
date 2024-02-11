@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+body {
+    font-family: Montserrat, serif;
+    background: linear-gradient(16deg, #2e0736 0%, #b800b1 100%);
+    color: white;
+}
+.nav-link {
+    color: rgb(118, 118, 118);
+}
+
+.navbar-nav .nav-link.active {
+    color:  rgb(212, 162, 201);
+}
+
+.navbar-brand {
+    width: 50px;
+}
+ 
+.SIDEBAR {
+    background: linear-gradient(30deg, #2e0736 0%, #b800b1 100%);
+    color: white;
+}
+
+.card {
+    color: white;
+    background: linear-gradient(100deg, #2e0736 0%, #b800b1 100%);
+}
+.card a {
+    text-decoration: none;
+    color: white;
+}
+.carousel div div p {
+    color: white;
+    margin: auto auto;
+}
+
+
+.imgmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: linear-gradient(15deg, #2e0736 0%, #b800b1 100%);
+    color: white;
+    
+}
+
+.footer-text {
+    margin: auto auto;
+	
+}
+.btn-outline-light {
+    background: linear-gradient(15deg, #2e0736 0%, #b800b1 100%);
+}
+
+
+.anim {
+    animation: myAnim 1s ease 2s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+

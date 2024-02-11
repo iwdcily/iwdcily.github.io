@@ -1,0 +1,23 @@
+.video {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video video {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text {
+    color: rgb(215, 190, 212);
+    z-index: 2;
+    font-size: 300px;
+}
